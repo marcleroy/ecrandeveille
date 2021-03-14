@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev tools on Techno watch site</title>
+    <link>http://www.ecrandeveille.ovh/tags/dev-tools/</link>
+    <description>Recent content in Dev tools on Techno watch site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Feb 2020 23:32:01 +0000</lastBuildDate><atom:link href="http://www.ecrandeveille.ovh/tags/dev-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visual Studio Code Remote Development</title>
+      <link>http://www.ecrandeveille.ovh/posts/visual-studio-code-remote-development/</link>
+      <pubDate>Fri, 28 Feb 2020 23:32:01 +0000</pubDate>
+      
+      <guid>http://www.ecrandeveille.ovh/posts/visual-studio-code-remote-development/</guid>
+      <description>Visual Studio Code Remote Development allows you to use a container, remote machine, or the Windows Subsystem for Linux (WSL) as a full-featured development environment. It effectively splits VS Code in half and runs the client part on your machine and the &amp;ldquo;VS Code Server&amp;rdquo; basically _anywhere else. _The Remote Development extension pack includes three extensions. See the following articles to get started with each of them:
+ Remote - SSH - Connect to any location by opening folders on a remote machine/VM using SSH.</description>
+    </item>
+    
+    <item>
+      <title>Utiliser Bogus avec les Xamarin.Forms</title>
+      <link>http://www.ecrandeveille.ovh/posts/bogus/</link>
+      <pubDate>Fri, 28 Feb 2020 22:58:29 +0000</pubDate>
+      
+      <guid>http://www.ecrandeveille.ovh/posts/bogus/</guid>
+      <description>ici : Utiliser Bogus avec les Xamarin.Forms
+Bogus est un complément indispensable pour les tests mais aussi la création dynamique de données de design. Connaissez-vous cette extension ?
+Bogus Bogus est une bibliothèque de Brian Chavez à utiliser dans les tests automatisés pour générer automatiquement des données de test de différents types. On peut l’utiliser dans le cadre de tests NUNIT ou de tout autres outils de test. On peut même s’en servir astucieusement dans le cadre d’un développement classique pour générer des données de Design aléatoires mais crédibles par exemple.</description>
+    </item>
+    
+  </channel>
+</rss>
