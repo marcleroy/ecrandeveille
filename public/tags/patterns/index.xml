@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patterns on Techno watch site</title>
-    <link>https://marcleroy.github.io/ecrandeveille/tags/patterns/</link>
+    <link>https://marcleroy.github.io/tags/patterns/</link>
     <description>Recent content in Patterns on Techno watch site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2020 23:25:38 +0000</lastBuildDate><atom:link href="https://marcleroy.github.io/ecrandeveille/tags/patterns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2020 23:25:38 +0000</lastBuildDate><atom:link href="https://marcleroy.github.io/tags/patterns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xamarin Forms, use C# to build views</title>
-      <link>https://marcleroy.github.io/ecrandeveille/posts/xamarin-forms-use-c-to-build-views/</link>
+      <link>https://marcleroy.github.io/posts/xamarin-forms-use-c-to-build-views/</link>
       <pubDate>Sun, 08 Mar 2020 23:25:38 +0000</pubDate>
       
-      <guid>https://marcleroy.github.io/ecrandeveille/posts/xamarin-forms-use-c-to-build-views/</guid>
+      <guid>https://marcleroy.github.io/posts/xamarin-forms-use-c-to-build-views/</guid>
       <description>MVVM problems
 ImmutableUI and TDD with Xamarin.Forms  **Posted: **May 6, 2018 / **By: **Adam Pedley / **In: **Code  See praeclarum/ImmutableUI and adamped/Pattern From
 https://xamarinhelp.com/wp-content/uploads/2017/01/xamarinhelp.png
@@ -21,10 +21,10 @@ MVVM and XAML has failed me. A promise of abstracting to make reusable component
     
     <item>
       <title>RegEx infos</title>
-      <link>https://marcleroy.github.io/ecrandeveille/posts/regex-infos/</link>
+      <link>https://marcleroy.github.io/posts/regex-infos/</link>
       <pubDate>Sun, 08 Mar 2020 23:07:42 +0000</pubDate>
       
-      <guid>https://marcleroy.github.io/ecrandeveille/posts/regex-infos/</guid>
+      <guid>https://marcleroy.github.io/posts/regex-infos/</guid>
       <description>Reference site for RegEx construction
 RegularRegExpressionsEx101
 Example for french plates https://regex101.com/r/VGjLx1/1
