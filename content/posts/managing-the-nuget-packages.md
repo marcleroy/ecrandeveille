@@ -11,14 +11,14 @@ From Managing the global packages, cache, and temp folders [here](https://docs.m
 
 You can view locations using the [nuget locals command](https://docs.microsoft.com/fr-fr/nuget/reference/cli-reference/cli-ref-locals):
 
-```
+```lang-bash
 # Display locals for all folders: global-packages, http cache, temp and plugins cache
 nuget locals all -list
 ```
 
 You can also view folder locations using the dotnet nuget locals command:
 
-```
+```lang-bash
 dotnet nuget locals all --list
 ```
 
@@ -26,7 +26,7 @@ dotnet nuget locals all --list
 
 If you encounter package installation problems or otherwise want to ensure that you're installing packages from a remote gallery, use the `locals --clear` option (dotnet.exe) or `locals -clear` (nuget.exe), specifying the folder to clear, or `all` to clear all folders:
 
-```
+```lang-bash
 # Clear the 3.x+ cache (use either command)
 dotnet nuget locals http-cache --clear
 nuget locals http-cache -clear

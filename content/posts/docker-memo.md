@@ -9,85 +9,85 @@ tags: ['Non classé']
 
 Informations diverses sur Docker :
 
-```
-$ docker info
-$ docker version
+```lang-bash
+\$ docker info
+\$ docker version
 ```
 
 Lancer un container :
 
-```
-$ docker run
+```lang-bash
+\$ docker run
 ```
 
 Arrêter un container :
 
-```
-$ docker stop
+```lang-bash
+\$ docker stop
 ```
 
 Démarrer un container arrêté :
 
-```
-$ docker start
+```lang-bash
+\$ docker start
 ```
 
 Supprimer un container (après l’avoir stopper) :
 
-```
-$ docker rm
+```lang-bash
+\$ docker rm
 ```
 
 Liste des containers actifs :
 
-```
-$ docker ps
+```lang-bash
+\$ docker ps
 ```
 
 Liste des containers actifs et inactifs :
 
-```
-$ docker ps -a
+```lang-bash
+\$ docker ps -a
 ```
 
 Arrêter tous les containers :
 
-```
-$ docker stop $(docker  ps -a -q)
+```lang-bash
+\$ docker stop $(docker  ps -a -q)
 ```
 
 Démarrer tous les containers :
 
-```
-$ docker start $(docker ps -a -q)
+```lang-bash
+\$ docker start $(docker ps -a -q)
 ```
 
 Supprimer tous les containers (après les avoir stopper) :
 
-```
-$ docker rm $(docker  ps -a -q)
+```lang-bash
+\$ docker rm $(docker  ps -a -q)
 ```
 
 Liste des images :
 
-```
-$ docker images
+```lang-bash
+\$ docker images
 ```
 
 Supprimer une image :
 
-```
-$ docker rmi
+```lang-bash
+\$ docker rmi
 ```
 
 Exécuter un Dockerfile :
 
-```
-$ docker-compose -d -f dockerfile.yml
+```lang-bash
+\$ docker-compose -d -f dockerfile.yml
 ```
 
 Entrer dans un container :
 
-```
-$ docker exec -it \[container\] bash
+```lang-bash
+\$ docker exec -it \[container\] bash
 ```

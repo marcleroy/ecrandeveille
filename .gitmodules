@@ -4,3 +4,12 @@
 [submodule "themes/saito"]
 	path = themes/saito
 	url = https://github.com/hakuoku/saito-boilerplate.git
+[submodule "themes/mainroad"]
+	path = themes/mainroad
+	url = https://github.com/vimux/mainroad
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/dspg"]
+	path = themes/dspg
+	url = https://github.com/pfadfinder-konstanz/hugo-dpsg
