@@ -5,9 +5,11 @@ draft: false
 tags: ['Cleaning', 'Dev machine']
 ---
 
-### PatchCleaner
+## Need place on a dev machine ?
 
 ![Desk with a laptop, coffee, and writing materials](https://leavingworkbehind.com/wp-content/uploads/2017/07/laptop-desk-writer.jpg)
+
+### PatchCleaner
 
 Clean c:\\Windows\\Installer
 

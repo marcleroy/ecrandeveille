@@ -1,7 +1,8 @@
 ---
 title: 'Politique de confidentialité'
-date: Sat, 22 Feb 2020 22:09:07 +0000
-draft: true
+date: Wed, 01 Jan 2020 18:00:00 +0000
+draft: false
+tags: ['About']
 ---
 
 ## Qui sommes-nous ?

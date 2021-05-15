@@ -1,6 +1,7 @@
 ---
-title: "Azure_files"
+title: 'Azure Storage MS Learn'
 date: 2021-03-22T22:38:42+01:00
+tags: ['Dev machine','Azure']
 draft: true
 ---
 
@@ -45,7 +46,7 @@ az storage share create \
     --name "reports"
 ~~~
 
-2. Créez un partage de fichiers pour stocker les données d’application de la société financière.
+1. Créez un partage de fichiers pour stocker les données d’application de la société financière.
 
 ~~~bash
 az storage share create \
@@ -55,8 +56,8 @@ az storage share create \
 ~~~
 
 marco_ml_1@Azure:~$ echo $STORAGEKEY
-Fr2RYwHxO0tGrxb4/9WylEV5idjYuOOImM/17xMREKlHmxYaVnohbACQXNH3o3fZ/O0HZGggxhmkcx365moORw==
+XXXXXXXXXXXXXXX
 marco_ml_1@Azure:~$ echo $STORAGEACCT
-learnazurefileshare12829
+learnazurefileshareXXXXX
 
 etc.
