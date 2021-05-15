@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Tech watch site</title><link>https://marcleroy.github.io/ecrandeveille/tags/docker/</link><description>Recent content in Docker on Tech watch site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Mar 2020 23:25:38 +0000</lastBuildDate><atom:link href="https://marcleroy.github.io/ecrandeveille/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker mémo</title><link>https://marcleroy.github.io/ecrandeveille/posts/docker-memo/</link><pubDate>Sun, 08 Mar 2020 23:25:38 +0000</pubDate><guid>https://marcleroy.github.io/ecrandeveille/posts/docker-memo/</guid><description>Commandes Informations diverses sur Docker :
+\$ docker info \$ docker version Lancer un container :
+\$ docker run Arrêter un container :
+\$ docker stop Démarrer un container arrêté :
+\$ docker start Supprimer un container (après l’avoir stopper) :
+\$ docker rm Liste des containers actifs :
+\$ docker ps Liste des containers actifs et inactifs :
+\$ docker ps -a Arrêter tous les containers :
+\$ docker stop $(docker ps -a -q) Démarrer tous les containers :</description></item></channel></rss>
