@@ -50,4 +50,3 @@ nuget locals plugins-cache -clear
 dotnet nuget locals all --clear
 nuget locals all -clear
 ```
-exi
