@@ -1,13 +1,133 @@
-<!doctype html><html class=no-js lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>Cleaning - Tech watch site</title><script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script><meta name=description content><meta property="og:title" content="Cleaning"><meta property="og:description" content="Marc Leroy's dev blog about .Net"><meta property="og:type" content="website"><meta property="og:url" content="https://marcleroy.github.io/ecrandeveille/tags/cleaning/"><meta property="og:site_name" content="Tech watch site"><meta itemprop=name content="Cleaning"><meta itemprop=description content="Marc Leroy's dev blog about .Net"><meta name=twitter:card content="summary"><meta name=twitter:title content="Cleaning"><meta name=twitter:description content="Marc Leroy's dev blog about .Net"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=dns-prefetch href=//fonts.googleapis.com><link rel=dns-prefetch href=//fonts.gstatic.com><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"><link rel=stylesheet href=/ecrandeveille/css/style.css><link rel=alternate type=application/rss+xml href=/ecrandeveille/tags/cleaning/index.xml title="Tech watch site"><link rel="shortcut icon" href=/ecrandeveille/favicon.ico></head><body class=body><div class="container container--outer"><header class=header><div class="container header__container"><div class="logo logo--mixed"><a class=logo__link href=/ecrandeveille title="Techno watch site" rel=home><div class="logo__item logo__imagebox"><img class=logo__img src=/ecrandeveille/images/vuesemnoz.jpg></div><div class="logo__item logo__text"><div class=logo__title>Techno watch site</div><div class=logo__tagline>trying to follow .Net evolution</div></div></a></div><nav class=menu><button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
-<span class=menu__btn-title tabindex=-1>Menu</span></button><ul class=menu__list><li class=menu__item><a class=menu__link href=/ecrandeveille/posts/><span class=menu__text>Posts</span></a></li></ul></nav></div></header><div class="wrapper flex"><div class=primary><main class="main list" role=main><header class=main__header><h1 class=main__title>Cleaning</h1></header><article class="list__item post"><header class=list__header><h2 class="list__title post__title"><a href=/ecrandeveille/posts/managing-the-nuget-packages/ rel=bookmark>Managing the NuGet packages</a></h2><div class="list__meta meta"><div class="meta__item-author meta__item"><svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2.0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class=meta__text>Marc Leroy</span></div><div class="meta__item-datetime meta__item"><svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2020-01-24T21:23:22Z>January 24, 2020</time></div></div></header><div class="content list__excerpt post__content clearfix">From Managing the global packages, cache, and temp folders here
+<!doctype html><html class=no-js lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title>Cleaning - Tech watch site</title>
+<script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
+<meta name=description content>
+<meta property="og:title" content="Cleaning">
+<meta property="og:description" content="Marc Leroy's dev blog about .Net">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://marcleroy.github.io/ecrandeveille/tags/cleaning/"><meta property="og:site_name" content="Tech watch site">
+<meta itemprop=name content="Cleaning">
+<meta itemprop=description content="Marc Leroy's dev blog about .Net">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Cleaning">
+<meta name=twitter:description content="Marc Leroy's dev blog about .Net">
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=dns-prefetch href=//fonts.googleapis.com>
+<link rel=dns-prefetch href=//fonts.gstatic.com>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+<link rel=stylesheet href=/ecrandeveille/css/style.css>
+<link rel=alternate type=application/rss+xml href=/ecrandeveille/tags/cleaning/index.xml title="Tech watch site">
+<link rel="shortcut icon" href=/ecrandeveille/favicon.ico>
+</head>
+<body class=body>
+<div class="container container--outer">
+<header class=header>
+<div class="container header__container">
+<div class="logo logo--mixed">
+<a class=logo__link href=/ecrandeveille title="Techno watch site" rel=home>
+<div class="logo__item logo__imagebox">
+<img class=logo__img src=/ecrandeveille/images/vuesemnoz.jpg>
+</div><div class="logo__item logo__text">
+<div class=logo__title>Techno watch site</div>
+<div class=logo__tagline>trying to follow .Net evolution</div>
+</div>
+</a>
+</div>
+<nav class=menu>
+<button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
+<span class=menu__btn-title tabindex=-1>Menu</span>
+</button>
+<ul class=menu__list>
+<li class=menu__item>
+<a class=menu__link href=/ecrandeveille/posts/>
+<span class=menu__text>Posts</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="wrapper flex">
+<div class=primary>
+<main class="main list" role=main>
+<header class=main__header>
+<h1 class=main__title>Cleaning</h1>
+</header><article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/ecrandeveille/posts/managing-the-nuget-packages/ rel=bookmark>
+Managing the NuGet packages
+</a>
+</h2>
+<div class="list__meta meta"><div class="meta__item-author meta__item">
+<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2.0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class=meta__text>Marc Leroy</span>
+</div>
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2020-01-24T21:23:22Z>January 24, 2020</time></div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+From Managing the global packages, cache, and temp folders here
 Viewing folder locations You can view locations using the nuget locals command:
 # Display locals for all folders: global-packages, http cache, temp and plugins cache nuget locals all -list You can also view folder locations using the dotnet nuget locals command:
-dotnet nuget locals all --list Clearing local folders If you encounter package installation problems or otherwise want to ensure that you&rsquo;re installing packages from a remote gallery, use the locals --clear option (dotnet.</div><div class="list__footer clearfix"><a class="list__footer-readmore btn" href=/ecrandeveille/posts/managing-the-nuget-packages/>Read more…</a></div></article><article class="list__item post"><header class=list__header><h2 class="list__title post__title"><a href=/ecrandeveille/posts/clean-desktop-dev-machine/ rel=bookmark>Clean Desktop Dev Machine</a></h2><div class="list__meta meta"><div class="meta__item-author meta__item"><svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2.0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class=meta__text>Marc Leroy</span></div><div class="meta__item-datetime meta__item"><svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2020-01-24T21:09:44Z>January 24, 2020</time></div></div></header><div class="content list__excerpt post__content clearfix">Need place on a dev machine ? PatchCleaner Clean c:\Windows\Installer
+dotnet nuget locals all --list Clearing local folders If you encounter package installation problems or otherwise want to ensure that you&rsquo;re installing packages from a remote gallery, use the locals --clear option (dotnet.
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/ecrandeveille/posts/managing-the-nuget-packages/>Read more…</a>
+</div>
+</article><article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/ecrandeveille/posts/clean-desktop-dev-machine/ rel=bookmark>
+Clean Desktop Dev Machine
+</a>
+</h2>
+<div class="list__meta meta"><div class="meta__item-author meta__item">
+<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2.0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class=meta__text>Marc Leroy</span>
+</div>
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2020-01-24T21:09:44Z>January 24, 2020</time></div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+Need place on a dev machine ? PatchCleaner Clean c:\Windows\Installer
 PatchCleaner obtains a list of known patches that are required by the computer from the Operating system. This list is then compared against all the files in the c:\Windows\Installer directory
 DriverStore Explorer - rapr https://github.com/lostindark/DriverStoreExplorer
-DriverStore Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include enumeration, adding a driver package (stage), adding & installing, deletion and force deletion from the driver store.</div><div class="list__footer clearfix"><a class="list__footer-readmore btn" href=/ecrandeveille/posts/clean-desktop-dev-machine/>Read more…</a></div></article></main></div><aside class="sidebar sidebar--left"><div class="widget-search widget"><form class=widget-search__form role=search method=get action=https://google.com/search><label><input class=widget-search__field type=search placeholder=SEARCH… name=q aria-label=SEARCH…></label>
+DriverStore Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include enumeration, adding a driver package (stage), adding & installing, deletion and force deletion from the driver store.
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/ecrandeveille/posts/clean-desktop-dev-machine/>Read more…</a>
+</div>
+</article>
+</main>
+</div>
+<aside class="sidebar sidebar--left"><div class="widget-search widget">
+<form class=widget-search__form role=search method=get action=https://google.com/search>
+<label>
+<input class=widget-search__field type=search placeholder=SEARCH… name=q aria-label=SEARCH…>
+</label>
 <input class=widget-search__submit type=submit value=Search>
-<input type=hidden name=sitesearch value=https://marcleroy.github.io/ecrandeveille></form></div><div class="widget-recent widget"><h4 class=widget__title>Recent Posts</h4><div class=widget__content><ul class=widget__list><li class=widget__item><a class=widget__link href=/ecrandeveille/posts/azure-cli/>Azure CLI WebApp Up</a></li><li class=widget__item><a class=widget__link href=/ecrandeveille/posts/docker-memo/>Docker mémo</a></li><li class=widget__item><a class=widget__link href=/ecrandeveille/posts/xamarin-forms-use-c-to-build-views/>Xamarin Forms, use C# to build views</a></li><li class=widget__item><a class=widget__link href=/ecrandeveille/posts/regex-infos/>RegEx infos</a></li><li class=widget__item><a class=widget__link href=/ecrandeveille/posts/visual-studio-code-remote-development/>Visual Studio Code Remote Development</a></li></ul></div></div><div class="widget-taglist widget"><h4 class=widget__title>Tags</h4><div class=widget__content><a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/about/ title=About>About</a>
+<input type=hidden name=sitesearch value=https://marcleroy.github.io/ecrandeveille>
+</form>
+</div>
+<div class="widget-recent widget">
+<h4 class=widget__title>Recent Posts</h4>
+<div class=widget__content>
+<ul class=widget__list>
+<li class=widget__item><a class=widget__link href=/ecrandeveille/posts/azure-cli/>Azure CLI WebApp Up</a></li>
+<li class=widget__item><a class=widget__link href=/ecrandeveille/posts/docker-memo/>Docker mémo</a></li>
+<li class=widget__item><a class=widget__link href=/ecrandeveille/posts/xamarin-forms-use-c-to-build-views/>Xamarin Forms, use C# to build views</a></li>
+<li class=widget__item><a class=widget__link href=/ecrandeveille/posts/regex-infos/>RegEx infos</a></li>
+<li class=widget__item><a class=widget__link href=/ecrandeveille/posts/visual-studio-code-remote-development/>Visual Studio Code Remote Development</a></li>
+</ul>
+</div>
+</div>
+<div class="widget-taglist widget">
+<h4 class=widget__title>Tags</h4>
+<div class=widget__content>
+<a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/about/ title=About>About</a>
 <a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/azure/ title=Azure>Azure</a>
 <a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/cleaning/ title=Cleaning>Cleaning</a>
 <a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/code/ title=Code>Code</a>
@@ -15,5 +135,37 @@ DriverStore Explorer [RAPR] makes it easier to deal with Windows driver store. S
 <a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/dev-tools/ title="Dev tools">Dev tools</a>
 <a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/docker/ title=Docker>Docker</a>
 <a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/librairies/ title=Librairies>Librairies</a>
-<a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/patterns/ title=Patterns>Patterns</a></div></div><div class="widget-languages widget"><h4 class=widget__title>Languages</h4><div class=widget__content><ul class=widget__list><li class=widget__item><a class="widget-languages__link widget__link" href=/ecrandeveille/><span class="widget-languages__link-btn widget__link-btn btn">EN</span></a></li><li class=widget__item><a class="widget-languages__link widget__link" href=/ecrandeveille/fr/><span class="widget-languages__link-btn widget__link-btn btn">FR</span></a></li></ul></div></div></aside></div><footer class=footer><div class="container footer__container flex"><div class=footer__copyright>&copy; 2021 Marc Leroy.
-<span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span></div></div></footer></div><script async defer src=/ecrandeveille/js/menu.js></script></body></html>
+<a class="widget-taglist__link widget__link btn" href=/ecrandeveille/tags/patterns/ title=Patterns>Patterns</a>
+</div>
+</div>
+<div class="widget-languages widget">
+<h4 class=widget__title>Languages</h4>
+<div class=widget__content>
+<ul class=widget__list>
+<li class=widget__item>
+<a class="widget-languages__link widget__link" href=/ecrandeveille/>
+<span class="widget-languages__link-btn widget__link-btn btn">EN</span>
+</a>
+</li>
+<li class=widget__item>
+<a class="widget-languages__link widget__link" href=/ecrandeveille/fr/>
+<span class="widget-languages__link-btn widget__link-btn btn">FR</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</aside>
+</div>
+<footer class=footer>
+<div class="container footer__container flex">
+<div class=footer__copyright>
+&copy; 2021 Marc Leroy.
+<span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span>
+</div>
+</div>
+</footer>
+</div>
+<script async defer src=/ecrandeveille/js/menu.js></script>
+</body>
+</html>
