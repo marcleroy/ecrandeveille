@@ -1,26 +1,27 @@
 ---
 title: 'Powershell configuration in Windows Terminal'
 date: 2023-11-28T15:30:42+01:00
-tags: ['Dev machine','Azure']
-draft: true
+tags: ['Dev machine','Terminal']
+draft: false
 ---
 
-Configuring the Windows Terminal prompt with Oh-My-Posh involves a few steps. Here's a general guide:
+Configuring the Windows Terminal prompt with Oh-My-Posh involves a few steps. 
+Here's a general guide:
 
-Install Windows Terminal:
-If you haven't installed Windows Terminal, you can download it from the Microsoft Store or from the GitHub releases page: [https://github.com/microsoft/terminal/releases](Windows Terminal Releases).
+### Install Windows Terminal
+If you haven't installed Windows Terminal, you can download it from the Microsoft Store or from the GitHub releases page: [Windows Terminal Releases](https://github.com/microsoft/terminal/releases).
 
-## Install PowerShell Core
-Oh-My-Posh works best with PowerShell Core. You can download and install it from the official GitHub releases page: PowerShell GitHub Releases.
+### Install PowerShell Core
+Oh-My-Posh works best with PowerShell Core. You can download and install it from the official GitHub releases page: [PowerShell GitHub Releases](https://github.com/PowerShell/PowerShell/releases).
 
-## Install Oh-My-Posh
+### Install Oh-My-Posh
 Open a PowerShell terminal and run the following command to install Oh-My-Posh:
 
 ~~~powershell
 Install-Module -Name oh-my-posh -Scope CurrentUser
 ~~~
 
-## Install a Powerline Font
+### Install a Powerline Font
 Oh-My-Posh often requires a font with Powerline symbols. You can download and install one of the recommended fonts from the Nerd Fonts project.
 
 Configure PowerShell Profile:
@@ -59,7 +60,7 @@ Close and reopen Windows Terminal to apply the changes.
 
 That's it! Your Windows Terminal should now display the Oh-My-Posh prompt with the configured theme. Adjustments may be needed based on your preferences and system setup.
 
-## Installing posh-git
+### Installing posh-git
 
 Installing posh-git is a good idea, especially if you're using Git. posh-git integrates with Oh-My-Posh to provide additional Git-related information in your prompt.
 
@@ -86,16 +87,19 @@ Save the profile, and then restart your PowerShell session or open a new Windows
 
 With posh-git installed and integrated, you should now see Git-related information, such as the current branch, status, and more, in your Oh-My-Posh prompt.
 
-## References and links
-Installation of Windows Terminal [https://windowsterminalthemes.dev/](themes)
+### References and links
 
-[https://www.youtube.com/watch?v=-G6GbXGo4wo](Make Windows Terminal Look Better | Oh My Posh Guide)
-[https://ohmyposh.dev/](Oh My Posh - A prompt theme engine for any shell.)
+ - [Installation of Windows Terminal themes](https://windowsterminalthemes.dev/)
 
-[https://ohmyposh.dev/docs/themes](Oh My Posh - Themes) 
+ - [Make Windows Terminal Look Better | Oh My Posh Guide](https://www.youtube.com/watch?v=-G6GbXGo4wo)
 
-[https://github.com/ryanoasis/nerd-fonts/releases]
-[https://github.com/dahlbyk/posh-git]
+ - [Oh My Posh - A prompt theme engine for any shell.](https://ohmyposh.dev/)
+
+ - [Oh My Posh - Themes](https://ohmyposh.dev/docs/themes) 
+
+ - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts/releases)
+
+ - [GitHub of posh-git](https://github.com/dahlbyk/posh-git)
 
 
 
