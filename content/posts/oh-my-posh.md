@@ -6,6 +6,7 @@ draft: false
 ---
 
 Configuring the Windows Terminal prompt with Oh-My-Posh involves a few steps. 
+<!--more-->
 Here's a general guide:
 
 ### Install Windows Terminal

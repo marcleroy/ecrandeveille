@@ -6,6 +6,7 @@ tags: ['Dev machine']
 ---
 
 Chocolatey est un **gestionnaire de paquets** pour Windows. C’est un programme qui vous permet d’installer et de désinstaller des applications à la vitesse de l’éclair en utilisant la commande `choco`. Son point fort : il est capable de mettre à jour l’ensemble des applications installées sur votre système avec une **seule commande** !
+<!--more-->
 
 See [https://github.com/chocolatey/choco/wiki/CommandsInstall#options-and-switches](https://github.com/chocolatey/choco/wiki/CommandsInstall#options-and-switches)
 

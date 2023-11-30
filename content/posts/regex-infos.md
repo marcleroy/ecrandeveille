@@ -5,7 +5,7 @@ draft: false
 tags: ['Code', 'Librairies', 'Patterns']
 ---
 
-Reference site for RegEx construction
+Reference site for RegEx construction<!--more-->
 
 [RegularRegExpressionsEx101](https://regex101.com/)
 
