@@ -5,7 +5,8 @@ tags: ['Dev machine','Azure']
 draft: true
 ---
 
-Dans cet exercice, vous allez d’abord créer un compte de stockage et deux partages de fichiers pour les rapports et les données d’application. Vous allez ensuite créer une machine virtuelle Windows à utiliser comme exemple de machine cliente. Vous utiliserez la machine virtuelle Windows pour monter les lecteurs où vous accéderez aux partages de fichiers. Pour finir, vous mapperez deux lecteurs aux nouveaux partages de fichiers Azure et vous y copierez des rapports.
+Dans cet exercice, vous allez d’abord créer un compte de stockage et deux partages de fichiers pour les rapports et les données d’application. Vous allez ensuite créer une machine virtuelle Windows à utiliser comme exemple de machine cliente.<!--more-->
+Vous utiliserez la machine virtuelle Windows pour monter les lecteurs où vous accéderez aux partages de fichiers. Pour finir, vous mapperez deux lecteurs aux nouveaux partages de fichiers Azure et vous y copierez des rapports.
 
 ## Créer un compte de stockage GRS
 

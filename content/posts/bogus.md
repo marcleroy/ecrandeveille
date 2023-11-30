@@ -8,6 +8,7 @@ tags: ['Dev tools']
 Voir ici : [Utiliser Bogus avec les Xamarin.Forms](https://www.e-naxos.com/Blog/post/Utiliser-Bogus-avec-les-XamarinForms.aspx)
 
 Bogus est un complément indispensable pour les tests mais aussi la création dynamique de données de design. Connaissez-vous cette extension ?
+<!--more-->
 
 ## Bogus
 

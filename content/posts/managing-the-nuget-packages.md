@@ -6,6 +6,7 @@ tags: ['Cleaning', 'Dev machine']
 ---
 
 From Managing the global packages, cache, and temp folders [here](https://docs.microsoft.com/fr-fr/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
+<!--more-->
 
 ### Viewing folder locations
 
