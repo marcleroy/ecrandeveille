@@ -16,6 +16,13 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
 
 [Author] # Used in authorbox
   name = "Marc Leroy"
@@ -56,7 +63,7 @@ enableRobotsTXT = true
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "/images/vuesemnoz.jpg" # Logo image. Path relative to "static"
+  image = "images/vslogo.png" # Logo image. Path relative to "static"
   title = "Techno watch site" # Logo title, otherwise will use site title
   subtitle = "trying to follow .Net evolution" # Logo subtitle
 
