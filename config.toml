@@ -1,7 +1,7 @@
 # baseURL = "https://marcleroy.github.io/ecrandeveille"
 baseURL = "http://localhost:1313/ecrandeveille"
 languageCode = "en-us"
-title = "Techno watch site"
+title = "Tech watch site"
 # theme = "dspg"
 # theme = "hugo-coder"
 # theme = "ananke"
