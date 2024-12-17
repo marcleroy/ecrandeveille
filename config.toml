@@ -24,9 +24,9 @@ target = 'static'
 source = 'images'
 target = 'static/images'
 
-[Author] # Used in authorbox
-  name = "Marc Leroy"
-  bio = "Marc Leroy's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  # [Author] # Used in authorbox
+    # name = "Marc Leroy"
+    # bio = "Marc Leroy's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
   # avatar = "img/avatar.png"
 
 [Params]
